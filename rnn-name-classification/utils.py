@@ -9,7 +9,7 @@ Original file is located at
 Tutorial by Patrick Loeber
 """
 
-! git clone https://github.com/Ibraheem101/Data-Science-learning.git
+# ! git clone https://github.com/Ibraheem101/Data-Science-learning.git
 
 import io
 import os
