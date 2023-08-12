@@ -59,7 +59,7 @@ def load_data():
         return [unicode_to_ascii(line) for line in lines]
 
 
-    for filename in find_files('/content/Data-Science-learning/rnn-name-classification/data/names/*txt'):
+    for filename in find_files('/data/names/*txt'):
         category = os.path.splitext(os.path.basename(filename))[0]
         all_categories.append(category)
 
